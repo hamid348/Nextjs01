@@ -1,5 +1,8 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import Instructors from "@/components/Instructors";
 import HeroSection from "@/components/ui/HeroSection";
+import UpcomingWebinars from "@/components/ui/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 
@@ -9,6 +12,9 @@ export default function Home() {
    <HeroSection/>
    <FeaturedCourses/>
    <WhyChooseUs/>
+   <InfiniteMovingCardsDemo/>
+   <UpcomingWebinars/>
+    <Instructors/>
    </main>
   );
 }
