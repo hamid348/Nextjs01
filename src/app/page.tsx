@@ -4,6 +4,7 @@ import Instructors from "@/components/Instructors";
 import HeroSection from "@/components/ui/HeroSection";
 import UpcomingWebinars from "@/components/ui/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
    <InfiniteMovingCardsDemo/>
    <UpcomingWebinars/>
     <Instructors/>
+    <Footer/>
    </main>
   );
 }
